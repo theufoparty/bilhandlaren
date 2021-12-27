@@ -4,7 +4,7 @@ import sell_car
 import felaktigt_val
 
 def hantera_kunder():
-    option = kund_meny.kund_meny("Välkommen till kundmenyn, här kan du göra följande val: ")
+    option = kund_meny.kund_meny()
     print()
     if option == 1:
         sell_car.sell_car()
