@@ -4,7 +4,7 @@ import felaktigt_val
 import register_car
 
 def hantera_företagare():
-    option = företagare_meny.företagare_meny("Välkommen till företagsmenyn, här kan du göra följande val: ")
+    option = företagare_meny.företagare_meny()
     print()
     if option == 1:
         register_car.register_car()
