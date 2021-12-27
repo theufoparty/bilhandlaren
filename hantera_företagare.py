@@ -5,7 +5,6 @@ import register_car
 
 def hantera_företagare():
     option = företagare_meny.företagare_meny()
-    print()
     if option == 1:
         register_car.register_car()
     elif option == 2:

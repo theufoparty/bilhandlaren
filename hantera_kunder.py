@@ -5,7 +5,6 @@ import felaktigt_val
 
 def hantera_kunder():
     option = kund_meny.kund_meny()
-    print()
     if option == 1:
         sell_car.sell_car()
     elif option == 2:

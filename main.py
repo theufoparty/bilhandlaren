@@ -1,9 +1,9 @@
-# Bilhandlaren - en interaktiv terminalmeny för bilhandel i andrahand.
-
 import first_meny
 import felaktigt_val
 import hantera_företagare
 import hantera_kunder
+
+# Bilhandlaren - en interaktiv terminalmeny för bilhandel i andrahand.
 
 print()
 option = first_meny.first_meny("Välkommen till Nell's Bilhandel!")

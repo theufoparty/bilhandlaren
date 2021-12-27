@@ -1,3 +1,5 @@
+import hämta_menyval
+
 def kund_meny():
     print("Välkommen till kundmenyn, här kan du göra följande val: ")
     print()
@@ -5,6 +7,6 @@ def kund_meny():
     print("[2] Vill du boka service/reparation?")
     print("[0] Välj 0 för att avsluta programmet.")
     print()
-    option = int(input("Skriv in ditt val här: "))
+    option = hämta_menyval.hämta_menyval()
     print()
     return option

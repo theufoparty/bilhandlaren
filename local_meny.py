@@ -1,9 +1,11 @@
-# local_meny - för mindre sub-val inuti menyn 
+import hämta_menyval
+
 def local_meny(titel):
     print(titel)
     print()
     print("[1] Ja")
     print("[2] Nej") 
     print()
-    option = int(input("Skriv in ditt val här: "))
+    option = hämta_menyval.hämta_menyval()
+    print()
     return option
