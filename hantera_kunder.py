@@ -1,10 +1,10 @@
-import kund_meny
+import meny_file
 import repairs
 import sell_car
 import felaktigt_val
 
 def hantera_kunder():
-    option = kund_meny.kund_meny()
+    option = meny_file.kund_meny()
     if option == 1:
         sell_car.sell_car()
     elif option == 2:

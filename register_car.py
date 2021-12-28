@@ -1,7 +1,8 @@
-import local_meny
+import meny_file
 import felaktigt_val
+
 def register_car():
-    option = local_meny.local_meny("Vill du registrera en bil?")
+    option = meny_file.local_meny("Vill du registrera en bil?")
     while option != 2:
         if option == 1:
           print("Skriv in följande information rörande bilen nedan: ")
@@ -19,4 +20,4 @@ def register_car():
           print(körsträcka_1)
         else:
             felaktigt_val.felaktigt_val()
-        option = local_meny.local_meny("Vill du registrera en till bil?")
+        option = meny_file.local_meny("Vill du registrera en till bil?")

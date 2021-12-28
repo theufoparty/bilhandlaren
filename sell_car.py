@@ -1,7 +1,8 @@
-import local_meny
+import meny_file
 import felaktigt_val
+
 def sell_car():
-    option = local_meny.local_meny("Vill du sälja en bil till oss?")
+    option = meny_file.local_meny("Vill du sälja en bil till oss?")
     while option != 2:
         if option == 1:
             print("Svara på dessa frågor angående din bil: ")
@@ -14,4 +15,4 @@ def sell_car():
             print('Du har alltså en bil av märket '+bilmärke+' av '+modellbeteckning+'-modell, från '+årsmodell+' som har gått '+antal_km+' km, detta låter intressant, vi återkommer inom kort.')
         else:
             felaktigt_val.felaktigt_val()
-        option = local_meny.local_meny("Vill du sälja en till bil?")
+        option = meny_file.local_meny("Vill du sälja en till bil?")
