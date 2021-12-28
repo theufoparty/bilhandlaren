@@ -49,3 +49,13 @@ def företagare_meny():
     option = hämta_menyval()
     print()
     return option
+
+def personal_meny():
+    print("Vill du lägga till eller ta bort en anställd?")
+    print()
+    print("[1] Lägg till anställd")
+    print("[2] Ta bort anställd")
+    print()
+    option = hämta_menyval()
+    print()
+    return option
