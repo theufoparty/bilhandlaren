@@ -1,5 +1,5 @@
 
-def hämta_menyval():
+def get_menu_option():
     try:
         option = int(input("Skriv in ditt val här: "))
     except:
@@ -7,55 +7,55 @@ def hämta_menyval():
     print("\n"*20)
     return option
 
-def first_meny(title):
+def main_menu(title):
     print(title)
     print()
     print("[1] Är du kund?")
     print("[2] Är du företagare?")
     print("[0] Välj 0 för att avsluta programmet.")
     print()
-    option = hämta_menyval()
+    option = get_menu_option()
     print()
     return option
 
-def local_meny(titel):
+def local_menu(titel):
     print(titel)
     print()
     print("[1] Ja")
     print("[2] Nej") 
     print()
-    option = hämta_menyval()
+    option = get_menu_option()
     print()
     return option
 
-def kund_meny():
+def customer_menu():
     print("Välkommen till kundmenyn, här kan du göra följande val: ")
     print()
     print("[1] Vill du sälja en bil?")
     print("[2] Vill du boka service/reparation?")
     print("[0] Välj 0 för att avsluta programmet.")
     print()
-    option = hämta_menyval()
+    option = get_menu_option()
     print()
     return option
 
-def företagare_meny():
+def business_menu():
     print("Välkommen till företagsmenyn, här kan du göra följande val: ")
     print()
     print("[1] Vill du registera en bil?")
     print("[2] Vill du hantera personal?")
     print("[0] Välj 0 för att avsluta programmet.")
     print()
-    option = hämta_menyval()
+    option = get_menu_option()
     print()
     return option
 
-def personal_meny():
+def employee_menu():
     print("Vill du lägga till eller ta bort en anställd?")
     print()
     print("[1] Lägg till anställd")
     print("[2] Ta bort anställd")
     print()
-    option = hämta_menyval()
+    option = get_menu_option()
     print()
     return option
