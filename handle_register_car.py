@@ -1,5 +1,7 @@
 import car
 
+# Funktion för att företaget ska kunna registera bilar.
+
 def handle_register_car():
   print("Registrera följande uppgifter rörande bilen i databasen: ")
   print()

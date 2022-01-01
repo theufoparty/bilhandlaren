@@ -1,3 +1,4 @@
+# Samling av hjälpfunktioner för menyerna i programmet.
 
 def get_menu_option():
     try:

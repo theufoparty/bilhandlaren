@@ -3,6 +3,8 @@ import handle_repairs
 import handle_sell_car
 import incorrect_option
 
+# Menyfunktion för att hantera kundval i programmet.
+
 def handle_customer():
     option = menu_file.customer_menu()
     while option != 0:

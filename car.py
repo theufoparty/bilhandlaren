@@ -1,3 +1,6 @@
+
+# Klass för bil.
+
 class Car:
     brand = ""
     model = ""

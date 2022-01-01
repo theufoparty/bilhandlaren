@@ -1,5 +1,7 @@
 import car
 
+# Funktion för att kunder ska kunna sälja bilar till bilhandeln.
+
 def handle_sell_car():
     print("Svara på dessa frågor angående din bil: ")
     print()

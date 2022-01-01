@@ -1,5 +1,7 @@
 import car
 
+# Funktion för att kunder ska kunna boka reparationer. 
+
 def handle_repairs():
     print("Bokning av reparationsärende")
     print()

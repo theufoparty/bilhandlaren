@@ -3,6 +3,8 @@ import handle_employees
 import handle_register_car
 import incorrect_option
 
+# Menyfunktion för att hantera företagsval i programmet.
+
 def handle_business():
     option = menu_file.business_menu()
     while option != 0:

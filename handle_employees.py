@@ -10,6 +10,8 @@ def print_employees():
     print("\t"+name)
   print()
 
+# Funktion för att hantera personal i bilhandeln.
+
 def handle_employees():
   print("Välkommen till personalhantering!")
   print()
