@@ -18,3 +18,13 @@ class Car:
         print(self.model)
         print(self.year)
         print(self.mileage)
+
+def input_car():
+    brand = input("Vilket märke har bilen?: ")
+    model = input("Vilken modell har bilen?: ")
+    year = input("Vilken årsmodell har bilen?: ")
+    try:
+        mileage = int(input("Hur många km har bilen gått?: "))
+    except:
+        print("Ni måste ange antal km som siffror.")
+    return Car(brand,model,year,mileage)

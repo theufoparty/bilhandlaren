@@ -18,22 +18,12 @@ def main_menu(title):
     print()
     return option
 
-def local_menu(titel):
-    print(titel)
-    print()
-    print("[1] Ja")
-    print("[2] Nej") 
-    print()
-    option = get_menu_option()
-    print()
-    return option
-
 def customer_menu():
     print("Välkommen till kundmenyn, här kan du göra följande val: ")
     print()
     print("[1] Vill du sälja en bil?")
     print("[2] Vill du boka service/reparation?")
-    print("[0] Välj 0 för att avsluta programmet.")
+    print("[0] Välj 0 för att återgå till huvudmenyn.")
     print()
     option = get_menu_option()
     print()
@@ -44,7 +34,7 @@ def business_menu():
     print()
     print("[1] Vill du registera en bil?")
     print("[2] Vill du hantera personal?")
-    print("[0] Välj 0 för att avsluta programmet.")
+    print("[0] Välj 0 för att återgå till huvudmenyn.")
     print()
     option = get_menu_option()
     print()
