@@ -45,6 +45,7 @@ def employee_menu():
     print()
     print("[1] Lägg till anställd")
     print("[2] Ta bort anställd")
+    print("[0] Välj 0 för att återgå till företagasmenyn.")
     print()
     option = get_menu_option()
     print()
