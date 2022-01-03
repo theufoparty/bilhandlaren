@@ -1,4 +1,3 @@
-
 # Hjälpfunktion för felhantering.
 
 def incorrect_option():

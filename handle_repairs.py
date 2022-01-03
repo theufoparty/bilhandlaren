@@ -13,7 +13,7 @@ def handle_repairs():
     print()
     print("Du vill alltså boka in din bil: ")
     car_to_repair.print()
-    print("Med det här felet: "+ fault_to_repair +" på det här datumet: "+date+".")
+    print("Med det här felet: " + fault_to_repair + " på det här datumet: " + date + ".")
     print()
     print("Vi återkommer inom kort!")
     print()

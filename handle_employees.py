@@ -1,5 +1,5 @@
-import incorrect_option
 import menu_file
+import incorrect_option
 
 employees = ["Johan", "David", "Klara", "Anna", "Nils"]
 
@@ -28,7 +28,7 @@ def handle_employees():
       try: 
         employees.remove(name)
       except:
-        print("Det ser ut som att "+name+" inte finns bland de anställda.")
+        print("Det ser ut som att " + name + " inte finns bland de anställda.")
     else:
         incorrect_option.incorrect_option()
     print_employees()

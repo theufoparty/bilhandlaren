@@ -1,4 +1,3 @@
-
 # Klass för bil.
 
 class Car:

@@ -1,6 +1,6 @@
 import menu_file
-import handle_business
 import handle_customer
+import handle_business
 import incorrect_option
 
 # Bilhandlaren - en interaktiv terminalmeny för bilhandel i andrahand
