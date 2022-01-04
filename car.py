@@ -16,10 +16,10 @@ class Car:
         return 2000000 - self.mileage
 
     def print(self):
-        print(self.brand)
-        print(self.model)
-        print(self.year)
-        print(self.mileage)
+        print("Märke:",self.brand)
+        print("Modell:",self.model)
+        print("Årsmodell:",self.year)
+        print("Körsträcka:",self.mileage,("km"))
 
 def input_car():
     brand = input("Vilket märke har bilen?: ")
