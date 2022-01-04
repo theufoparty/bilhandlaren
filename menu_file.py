@@ -51,3 +51,13 @@ def employee_menu():
     option = get_menu_option()
     print()
     return option
+
+def confirm_menu(title):
+    print(title)
+    print()
+    print("[1] Ja")
+    print("[0] Nej")
+    print()
+    option = get_menu_option()
+    print()
+    return option
